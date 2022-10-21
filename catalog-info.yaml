@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demo-1"
+  description: "Demo app"
+  annotations:
+    github.com/project-slug: switchbitio/demo-1
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
